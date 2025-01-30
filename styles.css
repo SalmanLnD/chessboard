@@ -15,7 +15,7 @@ body {
     border: 5px solid #333;
 }
 
-.chessboard div {
+.salman-chessboard div {
     width: 60px;
     height: 60px;
 }
