@@ -20,10 +20,10 @@ body {
     height: 60px;
 }
 
-.chessboard .black {
+.salman-chessboard .black {
     background-color: #769656;
 }
 
-.chessboard .white {
+.salman-chessboard .white {
     background-color: #eeeed2;
 }
