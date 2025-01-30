@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 5px solid #333;
+}
+
+.chessboard div {
+    width: 60px;
+    height: 60px;
+}
+
+.chessboard .black {
+    background-color: #769656;
+}
+
+.chessboard .white {
+    background-color: #eeeed2;
+}
